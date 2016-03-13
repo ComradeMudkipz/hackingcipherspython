@@ -1,7 +1,9 @@
 # Caesar Cipher Hacker
 # http://inventwithpython.com/hacking (BSD Licensed)
 
-message = 'GUVF VF ZL FRPERG ZRFNTR.'
+print('Please enter your message for decryption. (IN ALL CAPS ONLY)')
+message = input()
+message = message.upper()
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 # loop through every possible key
